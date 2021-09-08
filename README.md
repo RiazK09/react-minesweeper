@@ -13,9 +13,9 @@
 
 6. Once VS Code has opened up, click on the view tab on the navigation panel and then click on 'terminal' - This will in turn open up the terminal in VS Code.
 
-7. Use 'cd' to navigate to the project folder.
+7. Use 'cd' to navigate to the project folder. eg cd react-minesweeper-master
 
-8. Install the nodules folder (node dependencies) by entering 'npm i' into the terminal.
+8. Install the nodules folder (node dependencies) by entering 'npm install' into the terminal.
 
 9. Once the node dependencies have been installed, you may enter 'npm start' into the terminal - this will run the app in development mode.
    Open [http://localhost:3000](http://localhost:3000) to view the app within the browser.
