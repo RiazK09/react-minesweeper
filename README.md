@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+## Installation (From Github)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. On GitHub, navigate to the main page of the repository. Click on the green button "Code". A dropdown menu will be displayed with an option to "Download Zip" - by clicking on this, a zip folder of the react app will be downloaded to your pc.
 
-## Available Scripts
+2. In order to work with the zip files, they must be extracted first.
+   Navigate to the downloaded folder and right-click on it.
 
-In the project directory, you can run:
+3. Choose "Extract files".
 
-### `npm start`
+4. The system will tell you where it is going to send the file and you can change that to where you want to send it.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+5. Thereafter, drag the folder to a code editor of your choice. In this example, I will make reference to the VS Code editor.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+6. Once VS Code has opened up, click on the view tab on the navigation panel and then click on 'terminal' - This will in turn open up the terminal in VS Code.
 
-### `npm test`
+7. Use 'cd' to navigate to the project folder.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+8. Install the nodules folder (node dependencies) by entering 'npm i' into the terminal.
 
-### `npm run build`
+9. Once the node dependencies have been installed, you may enter 'npm start' into the terminal - this will run the app in development mode.
+   Open [http://localhost:3000](http://localhost:3000) to view the app within the browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+10. The React App will now run on your local machine.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Game Rules
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. The purpose of this game is to reveal all the open areas on the board, without hitting any of the bombs.
+2. Use the left click button on the mouse to reveal a space on the grid. Keep in mind - if you hit a bomb, you lose.
+3. The numbers on the board represent how many bombs are adjacent to a square Eg: if a square has a '2' on it, then there are 2 bombs next to the square.
+4. The bombs could be below, above, left, right or diagonal to the square.
+5. If you suspect a bomb, use the right mouse click to flag it. Note: There are 15 bombs placed on the board.
+6. In order to win the game, avoid all the bombs by flagging it & expose all the empty spaces.
