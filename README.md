@@ -1,4 +1,27 @@
-Installation (From Github)
+# Minesweeper App
+
+> A React App that allows a user to play Minesweeper.
+
+![Game](./src/images/Game.png)
+
+The deployed app can be found [here](https://sheltered-earth-36448.herokuapp.com/)
+
+## Table of Contents:
+
+- [General Info](#general-information)
+- [Installation](#installation)
+- [Game Rules](#game-rules)
+- [Screenshots](#screenshots)
+- [Credits](#credits)
+- [Contact](#contact)
+
+## General Information
+
+This is a React app which allows users to play Minesweeper. Minesweeper is a simple
+game where a user clicks on tiles to reveal whether there is a "mine" behind the tile
+or not. If a tile that hides a "mine" is clicked, the user loses and the game is over.
+
+## Installation
 
 1. On GitHub, navigate to the main page of the repository. Click on the green button "Code". A dropdown menu will be displayed with an option to "Download Zip" - by clicking on this, a zip folder of the react app will be downloaded to your pc.
 
@@ -30,3 +53,20 @@ Installation (From Github)
 4. The bombs could be below, above, left, right or diagonal to the square.
 5. If you suspect a bomb, use the right mouse click to flag it. Note: There are 15 bombs placed on the board.
 6. In order to win the game, avoid all the bombs by flagging it & expose all the empty spaces.
+
+## Screenshots
+
+![Minesweeper](./src/images/Minesweeper.png)
+
+![Gameover](./src/images/Gameover.png)
+
+## Credits
+
+- Minesweeper in 100 minutes - React JS Game [tutorial](https://www.youtube.com/watch?v=BLdd0zP-tAw) - by Edurise.
+- HyperionDev - https://www.hyperiondev.com/
+
+## Contact
+
+👤 **Riaz Karolia**
+
+Feel free to contact me on [LinkedIn](https://www.linkedin.com/in/riaz-karolia/)
