@@ -1,4 +1,4 @@
-## Installation (From Github)
+Installation (From Github)
 
 1. On GitHub, navigate to the main page of the repository. Click on the green button "Code". A dropdown menu will be displayed with an option to "Download Zip" - by clicking on this, a zip folder of the react app will be downloaded to your pc.
 
